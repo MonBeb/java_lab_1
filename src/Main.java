@@ -1,32 +1,22 @@
-import java.util.Scanner;
+import java.sql.SQLOutput;
 
 public class Main {
 
     public static void main(String[] args) {
+//        ćw.1 napisać po kilka przykładów wypisywania tekstu w konsoli,
+//        Użyć każdej z opcji
 
-        /* ćw.4 */
+        System.out.println("Zadanie 1. Napisz kilka przykładów tekstu w konsoli.");
+        System.out.println("Pamiętaj! Użyj każdej z opcji kilka razy.");
+        System.out.println("Powodzenia!");
 
-        /* zad.1 proszę dodać kilka złożonych operacji uzywając kilku operatorów arytmetycznych i logicznych */
+        System.out.printf("W ramach zajęć każdy student");
+        System.out.printf(" wykonuje zadania indywidulanie.");
+        System.out.printf(" Na %s ostatnia z %d opcji:\n", "koniec", 3);
 
-        boolean a = true;
-        boolean b = false;
-        boolean c = false;
-
-        int x = 10;
-        int y = 20;
-        int z = 30;
-
-        System.out.println("(b == a) || (x == z): " + ((b == a) || (x == z)));
-        System.out.println("(z > y) || (y > x): " + ((z > y) || (y > x)));
-        System.out.println("(z >= x) || (b != c): " + ((z >= x) || (b != c)));
-        System.out.println("(b || c) && (x < y): " + ((b || c) && (x < y)));
-        System.out.println("(y > x) || (a && b): " + ((y > x) || (a && b)));
-
-
-
-
-
-
+        System.out.print("To już koniec zadania,");
+        System.out.print(" którego celem było wypisanie tekstu w konsoli.");
+        System.out.print(" Brawo!");
 
     }
 }
